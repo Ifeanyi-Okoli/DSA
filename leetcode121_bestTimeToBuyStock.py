@@ -17,6 +17,7 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
+        len(prices)
         l = 0  # Initialize left pointer
         r = 1  # Initialize right pointer
         max_profit = 0  # Initialize max_profit variable to store the maximum profit found
@@ -30,4 +31,5 @@ class Solution(object):
     
     prices = [7,1,5,3,6,4]
     print(maxProfit(prices))
-    
+    prices[9]
+    print(maxProfit(prices))
