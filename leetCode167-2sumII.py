@@ -42,12 +42,6 @@ time complexity of O (n^2)
 
 class Solution(object):
     def twoSum(array, target):
-        """
-        :type numbers: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-      
         l = 0
         r = len(array) - 1  # gives the last index of the array
         while l < r: # we have to keep moving the pointers from the left to right or from the right to left
