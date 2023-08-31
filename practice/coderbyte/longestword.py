@@ -10,4 +10,4 @@ def LongestWord(sen):
   return max(res, key=len)
 
 # keep this function call here 
-print(LongestWord(input()))
+print(LongestWord("Hello world123 567"))

@@ -4,14 +4,17 @@ Examples
 Input: 4
 Output: 24
 """
-
+from math import factorial
 def FirstFactorial(num):
 
-  # code goes here
-  if num <= 1:
-    return 1
+  # # code goes here
+  # if num <= 1:
+  #   return 1
 
-  return num*FirstFactorial(num-1)
+  # return num*FirstFactorial(num-1)
+  # # or
+  # return num * FirstFactorial(num - 1) if num > 1 else 1
+  return factorial(num)
 
 # keep this function call here 
 print(FirstFactorial(4))
